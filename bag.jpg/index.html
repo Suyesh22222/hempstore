@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bag Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Welcome to My Bag Shop</header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <h2>Our Featured Bags</h2>
+
+    <div class="gallery">
+        <div class="product">
+            <img src="bag1.jpg" alt="Bag 1">
+            <h3>Stylish Handbag</h3>
+            <p>Price: $49.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="bag2.jpg" alt="Bag 2">
+            <h3>Leather Backpack</h3>
+            <p>Price: $79.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="bag3.jpg" alt="Bag 3">
+            <h3>Casual Tote</h3>
+            <p>Price: $29.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="bag4.jpg" alt="Bag 4">
+            <h3>Luxury Clutch</h3>
+            <p>Price: $99.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Add more bags like this -->
+        <div class="product">
+            <img src="bag5.jpg" alt="Bag 5">
+            <h3>Crossbody Bag</h3>
+            <p>Price: $39.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="bag6.jpg" alt="Bag 6">
+            <h3>Mini Backpack</h3>
+            <p>Price: $59.99</p>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
